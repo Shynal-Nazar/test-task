@@ -1,0 +1,62 @@
+.header {
+  height: 533px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header__container {
+  padding-top: 22px;
+}
+
+.header_imageHome {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.56),
+      rgba(0, 0, 0, 0.56)
+    ),
+    url(../images/home/showcase.jpg);
+  @media (min-device-pixel-ratio: 2) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.56),
+        rgba(0, 0, 0, 0.56)
+      ),
+      url(../images/home/showcase.jpg);
+  }
+}
+
+.header-logo__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 16px;
+}
+
+.header-logo_icon {
+  width: 25px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.header-finance__span {
+  color: #28a745;
+  margin-right: 8px;
+}
+
+.haeder-nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.haeder-nav_item {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
