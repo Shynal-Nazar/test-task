@@ -1,0 +1,42 @@
+.hero {
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-title {
+  width: 270px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 16px;
+
+  color: #ffffff;
+}
+
+.hero-text {
+  font-size: 26px;
+  line-height: 1.23;
+  text-align: center;
+  margin-bottom: 24px;
+
+  color: #ffffff;
+}
+
+.hero-button {
+  padding: 16px 32px;
+  cursor: pointer;
+  border: none;
+  background: #28a745;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.button-icon {
+  display: inline-flex;
+  width: 10px;
+  height: 12px;
+  background-image: url(../images/nexf-button.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: #ffffff;
+}

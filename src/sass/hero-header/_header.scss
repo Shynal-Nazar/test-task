@@ -49,12 +49,16 @@
   margin-right: 8px;
 }
 
-.haeder-nav_list {
+.header-nav {
+  margin-bottom: 62px;
+}
+
+.header-nav_list {
   display: flex;
   justify-content: space-between;
 }
 
-.haeder-nav_item {
+.header-nav_item {
   font-size: 16px;
   line-height: 22px;
 
