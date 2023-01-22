@@ -1,0 +1,38 @@
+.team-container {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 50px;
+}
+
+.team-pre_text {
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.team-title {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #333333;
+}
+
+.team-text {
+  margin-bottom: 63px;
+}
+
+.team-card {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.team-card_img {
+  margin-bottom: 16px;
+}
+
+.team-card_name {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 27px;
+}
