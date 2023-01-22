@@ -1,0 +1,22 @@
+.footer_container {
+  text-align: center;
+  background-color: #333333;
+  padding: 20px;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.footer_item {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+.footer_text {
+  color: #ffffff;
+}
