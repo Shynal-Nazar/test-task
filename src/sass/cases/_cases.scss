@@ -10,7 +10,8 @@
 }
 
 .cases-title {
-  width: 219px;
+  display: inline-block;
+  width: 220px;
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 44px;
@@ -19,4 +20,10 @@
 
 .cases-text {
   margin-bottom: 24px;
+}
+
+.cases-card {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }
