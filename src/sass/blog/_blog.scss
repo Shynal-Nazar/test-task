@@ -1,6 +1,10 @@
 .blog-img {
   margin: 0 auto;
-  height: 247px;
+  // max-width: 480px;
+  max-height: 220px;
+  @media screen and (min-width: 320px) {
+    max-height: 480px;
+  }
 }
 
 .blog-text_container {
