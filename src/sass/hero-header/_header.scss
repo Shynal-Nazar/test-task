@@ -5,6 +5,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  @media screen and (min-width: 768px) {
+    height: 1024px;
+  }
 }
 
 .header__container {
@@ -31,7 +34,7 @@
 .header-nav {
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
   }
 }
@@ -63,6 +66,10 @@
 
 .header-nav {
   margin-bottom: 62px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 314px;
+  }
 }
 
 .header-nav_list {

@@ -3,6 +3,9 @@
   padding-top: 56px;
   padding-bottom: 40px;
   background-color: #f4f4f4;
+  @media screen and (min-width: 768px) {
+    padding-top: 48px;
+  }
 }
 
 .cases-pre_text {
@@ -12,19 +15,37 @@
 
 .cases-title {
   display: inline-block;
-  width: 220px;
+  max-width: 220px;
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 44px;
   color: #333333;
+  @media screen and (min-width: 768px) {
+    max-width: 300px;
+  }
 }
 
 .cases-text {
   margin-bottom: 24px;
 }
 
+.cases-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -9px;
+  }
+}
+
 .cases-card {
-  &:not(:last-child) {
-    margin-bottom: 8px;
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 6 * 9px) / 3);
+    margin: 9px;
   }
 }
