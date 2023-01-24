@@ -12,6 +12,11 @@
   margin-bottom: 16px;
 
   color: #ffffff;
+
+  @media screen and (max-width: 300px) {
+    font-size: 25px;
+    line-height: 1.2;
+  }
 }
 
 .hero-text {
@@ -21,6 +26,10 @@
   margin-bottom: 24px;
 
   color: #ffffff;
+  @media screen and (max-width: 300px) {
+    font-size: 22px;
+    line-height: 1.13;
+  }
 }
 
 .hero-button {

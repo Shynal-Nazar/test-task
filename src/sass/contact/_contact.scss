@@ -20,12 +20,18 @@
   color: #333333;
 }
 
+.callback_form {
+  display: flex;
+  flex-direction: column;
+}
+
 .callback-input {
   padding: 16px 8px;
   margin-bottom: 16px;
 }
 
 .callback-btn {
+  max-width: 130px;
   margin-top: 8px;
   background: #28a745;
 }
