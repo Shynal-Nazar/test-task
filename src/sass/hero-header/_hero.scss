@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 }
-.hero-title {
+.hero__title {
   display: inline-block;
   max-width: 270px;
   font-weight: 600;
@@ -26,7 +26,7 @@
   }
 }
 
-.hero-text {
+.hero__text {
   font-size: 26px;
   line-height: 1.23;
   text-align: center;
@@ -40,12 +40,12 @@
   }
 }
 
-.hero-button {
+.hero__button {
   border: none;
   background: #28a745;
 }
 
-.button-icon {
+.button__icon {
   display: inline-flex;
   width: 10px;
   height: 12px;

@@ -1,4 +1,4 @@
-.cases-container {
+.cases__container {
   text-align: center;
   padding-top: 56px;
   padding-bottom: 40px;
@@ -8,12 +8,12 @@
   }
 }
 
-.cases-pre_text {
+.cases__pre-text {
   margin-bottom: 16px;
   color: #333333;
 }
 
-.cases-title {
+.cases__title {
   display: inline-block;
   max-width: 220px;
   margin-bottom: 24px;
@@ -25,11 +25,11 @@
   }
 }
 
-.cases-text {
+.cases__text {
   margin-bottom: 24px;
 }
 
-.cases-list {
+.cases__list {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +37,7 @@
   }
 }
 
-.cases-card {
+.cases__card {
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 8px;

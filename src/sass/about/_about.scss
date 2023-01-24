@@ -5,7 +5,7 @@
   }
 }
 
-.about-img {
+.about__img {
   margin: 0 auto;
   max-height: 220px;
   @media screen and (min-width: 320px) {
@@ -19,7 +19,7 @@
   }
 }
 
-.about-text_container {
+.about__text-container {
   background: #28a745;
   padding-top: 79px;
   padding-bottom: 79px;
@@ -29,24 +29,24 @@
   }
 }
 
-.about-pre_text {
+.about__pre-text {
   margin-bottom: 16px;
   color: #ffffff;
 }
 
-.about-title {
+.about__title {
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 44px;
   color: #ffffff;
 }
 
-.about-text {
+.about__text {
   color: #ffffff;
   margin-bottom: 24px;
 }
 
-.about-btn {
+.about__btn {
   display: flex;
   border: 1px solid #ffffff;
   background: #28a745;

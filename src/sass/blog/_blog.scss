@@ -6,7 +6,7 @@
   }
 }
 
-.blog-img {
+.blog__img {
   margin: 0 auto;
   max-height: 220px;
   @media screen and (min-width: 320px) {
@@ -20,7 +20,7 @@
   }
 }
 
-.blog-text_container {
+.blog__text-container {
   background: #0284d0;
   padding-top: 48px;
   padding-bottom: 58px;
@@ -29,19 +29,19 @@
   }
 }
 
-.blog-pre_text {
+.blog__pre-text {
   margin-bottom: 16px;
   color: #ffffff;
 }
 
-.blog-title {
+.blog__title {
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 44px;
   color: #ffffff;
 }
 
-.blog-text {
+.blog__text {
   color: #ffffff;
   margin-bottom: 24px;
   @media screen and (min-width: 768px) {
@@ -49,7 +49,7 @@
   }
 }
 
-.blog-btn {
+.blog__btn {
   display: flex;
   border: 1px solid #ffffff;
   background: #0284d0;
