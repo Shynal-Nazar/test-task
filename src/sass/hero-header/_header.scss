@@ -28,6 +28,14 @@
   }
 }
 
+.header-nav {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
 .header-logo__link {
   display: flex;
   align-items: center;
@@ -60,6 +68,9 @@
 .header-nav_list {
   display: flex;
   justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    width: 355px;
+  }
 }
 
 .header-nav_item {

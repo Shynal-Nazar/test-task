@@ -4,7 +4,7 @@
 }
 .hero-title {
   display: inline-block;
-  width: 270px;
+  max-width: 270px;
   font-weight: 600;
   font-size: 40px;
   line-height: 1.35;
@@ -16,6 +16,9 @@
   @media screen and (max-width: 300px) {
     font-size: 25px;
     line-height: 1.2;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 530px;
   }
 }
 
@@ -29,6 +32,9 @@
   @media screen and (max-width: 300px) {
     font-size: 22px;
     line-height: 1.13;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 530px;
   }
 }
 
