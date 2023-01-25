@@ -3,6 +3,9 @@
     display: flex;
     min-width: 600px;
   }
+  @media screen and (min-width: 1360px) {
+    min-width: 1300px;
+  }
 }
 
 .about__img {
@@ -27,23 +30,41 @@
     padding-top: 60px;
     padding-bottom: 62px;
   }
+  @media screen and (min-width: 1360px) {
+    padding-top: 80px;
+    padding-bottom: 86px;
+    width: 50%;
+  }
 }
 
 .about__pre-text {
   margin-bottom: 16px;
   color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
 .about__title {
   margin-bottom: 24px;
   font-size: 32px;
   line-height: 44px;
+  font-weight: 400;
   color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 .about__text {
   color: #ffffff;
   margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
 .about__btn {
