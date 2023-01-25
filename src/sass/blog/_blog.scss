@@ -9,6 +9,12 @@
   }
 }
 
+.thumb {
+  @media screen and (min-width: 1360px) {
+    width: 50%;
+  }
+}
+
 .blog__img {
   margin: 0 auto;
   max-height: 220px;
@@ -33,7 +39,7 @@
   @media screen and (min-width: 1360px) {
     padding-top: 80px;
     padding-bottom: 86px;
-    width: 54%;
+    width: 50%;
   }
 }
 

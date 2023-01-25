@@ -3,6 +3,9 @@
     display: flex;
     min-width: 360px;
   }
+  @media screen and (min-width: 1360px) {
+    min-width: 100%;
+  }
 }
 
 .contact-img {
@@ -25,6 +28,9 @@
   background-color: #f4f4f4;
   @media screen and (min-width: 768px) {
     padding: 32px;
+  }
+  @media screen and (min-width: 1360px) {
+    width: 50%;
   }
 }
 
