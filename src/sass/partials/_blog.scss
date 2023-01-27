@@ -77,9 +77,11 @@
   display: flex;
   border: 1px solid #ffffff;
   background: #0284d0;
-  transition-property: filter;
+  transition-property: border, background, color;
   transition-duration: 500ms;
   &:hover {
-    filter: opacity(70%);
+    border: 1px solid #0284d0;
+    background: #ffffff;
+    color: #0284d0;
   }
 }

@@ -73,4 +73,11 @@
   display: flex;
   border: 1px solid #ffffff;
   background: #28a745;
+  transition-property: border, background, color;
+  transition-duration: 500ms;
+  &:hover {
+    border: 1px solid #28a745;
+    background: #ffffff;
+    color: #28a745;
+  }
 }
