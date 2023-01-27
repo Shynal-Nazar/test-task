@@ -65,6 +65,15 @@
   }
 }
 
+.callback-invalid-box {
+  display: flex;
+  align-items: center;
+}
+
+.callback-invalid-box__text {
+  color: red;
+}
+
 .callback-input:invalid:required {
   background-image: linear-gradient(to right, pink, lightgreen);
 }
