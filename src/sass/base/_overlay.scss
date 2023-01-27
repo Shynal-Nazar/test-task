@@ -1,0 +1,46 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #040404;
+  opacity: 0.5;
+
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .team-card_foto:hover & {
+    transform: translateY(0);
+  }
+}
+
+.overlay__list {
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay__item {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+.overlay-socnav__icon {
+  @media screen and (max-width: 1359px) {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    width: 35px;
+    height: 35px;
+  }
+  fill: white;
+  transition-property: filter;
+  transition-duration: 500ms;
+  &:hover {
+    filter: opacity(80%);
+  }
+}

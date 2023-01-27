@@ -9,12 +9,18 @@
   </div>
   <div class="container contact-text_container">
     <h2 class="contact-title">Request Callback</h2>
-    <form class="callback_form">
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      class="callback_form"
+    >
       <input
         class="callback-input"
         type="name"
         name="name"
         id="name"
+        required
         placeholder="Enter your name"
       />
       <input
@@ -22,6 +28,7 @@
         type="email"
         name="mail"
         id="email"
+        required
         placeholder="Enter email*"
       />
       <button type="submit" class="btn callback-btn">Send</button>

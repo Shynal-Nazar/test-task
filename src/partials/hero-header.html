@@ -1,6 +1,6 @@
 <header id="home" class="header header-imageHome">
   <div class="container header__container">
-    <div class="navigation-blok">
+    <div id="test" class="navigation-blok">
       <a href="./index.html" class="header-logo__link link">
         <svg class="socnav__icon" width="35" height="35">
           <use href="./images/symbol-defs.svg#icon-logo"></use>
@@ -40,3 +40,14 @@
     </section>
   </div>
 </header>
+
+<script>
+  window.onscroll = function () {
+    var header = document.getElementById('test');
+    if (window.pageYOffset > 40) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  };
+</script>
