@@ -43,24 +43,5 @@
         }
       };
     </script>
-    <script>
-      const form = document.querySelector('.callback_form');
-      const invalidBox = document.querySelector('.callback-invalid-box');
-      form.addEventListener('submit', onformSabmit);
-      function onformSabmit(event) {
-        event.preventDefault();
-
-        const formElements = event.currentTarget.elements;
-        const email = formElements.email.value;
-        const name = formElements.name.value;
-
-        if (email === '' || name === '') {
-          return (invalidBox.style.display = 'flex');
-        }
-        if (email !== '' || name !== '') {
-          return (invalidBox.style.display = 'none');
-        }
-      }
-    </script>
   </body>
 </html>

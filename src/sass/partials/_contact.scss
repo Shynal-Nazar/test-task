@@ -78,6 +78,10 @@
   background-image: linear-gradient(to right, pink, lightgreen);
 }
 
+.callback-input:invalid:required + .callback-invalid-box {
+  display: flex;
+}
+
 .callback-btn {
   border: none;
   max-width: 130px;
