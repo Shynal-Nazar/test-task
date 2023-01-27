@@ -52,6 +52,8 @@
 }
 
 .cases__card {
+  transition-property: filter;
+  transition-duration: 500ms;
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 8px;
@@ -61,5 +63,8 @@
   @media screen and (min-width: 768px) {
     width: calc((100% - 6 * 9px) / 3);
     margin: 9px;
+  }
+  &:hover {
+    filter: opacity(80%);
   }
 }

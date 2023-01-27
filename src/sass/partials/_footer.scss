@@ -17,6 +17,15 @@
   }
 }
 
+.socnav__icon {
+  fill: white;
+  transition-property: fill;
+  transition-duration: 500ms;
+  &:hover {
+    fill: #28a745;
+  }
+}
+
 .footer__text {
   color: #ffffff;
 }
