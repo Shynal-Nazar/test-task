@@ -45,29 +45,22 @@
     </script>
     <script>
       const form = document.querySelector('.callback_form');
-      const inputName = document.getElementById('name');
-      const inputEmail = document.getElementById('name');
-      console.log(inputName.value);
-      // form.addEventListener('submit', onformSabmit);
-      // function onformSabmit(event) {
-      //   event.preventDefault();
+      const invalidBox = document.querySelector('.callback-invalid-box');
+      form.addEventListener('submit', onformSabmit);
+      function onformSabmit(event) {
+        event.preventDefault();
 
-      //   const formElements = event.currentTarget.elements;
-      //   const email = formElements.email.value;
-      //   const name = formElements.name.value;
+        const formElements = event.currentTarget.elements;
+        const email = formElements.email.value;
+        const name = formElements.name.value;
 
-      //   if (email === '' || name === '') {
-      //     return alert('All lines must be filled');
-      //   }
-
-      //   const formData = {
-      //     email,
-      //     password,
-      //   };
-
-      //   console.log(formData);
-      //   event.currentTarget.reset();
-      // }
+        if (email === '' || name === '') {
+          return (invalidBox.style.display = 'flex');
+        }
+        if (email !== '' || name !== '') {
+          return (invalidBox.style.display = 'none');
+        }
+      }
     </script>
   </body>
 </html>
