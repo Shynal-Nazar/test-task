@@ -13,8 +13,8 @@
 .header-imageHome {
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.56),
-      rgba(0, 0, 0, 0.56)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ),
     url(../images/home/showcase.jpg);
   @media (min-device-pixel-ratio: 2),
@@ -22,8 +22,8 @@
     (min-resolution: 2dppx) {
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.56),
-        rgba(0, 0, 0, 0.56)
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
       ),
       url(../images/home/showcase@2x.jpg);
   }
@@ -55,6 +55,8 @@
   line-height: 1.35;
   margin-bottom: 16px;
   color: #ffffff;
+  transition-property: transform;
+  transition-duration: 500ms;
   @media screen and (max-width: 300px) {
     font-size: 24px;
     line-height: 1.16;
@@ -63,6 +65,9 @@
     margin-bottom: 0px;
     font-size: 35px;
     line-height: 1.37;
+  }
+  &:hover {
+    transform: scale(1.2);
   }
 }
 
