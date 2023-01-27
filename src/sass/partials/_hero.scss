@@ -53,6 +53,11 @@
 .hero__button {
   border: none;
   background: #28a745;
+  transition-property: filter;
+  transition-duration: 500ms;
+  &:hover {
+    filter: opacity(80%);
+  }
 }
 
 .button__icon {

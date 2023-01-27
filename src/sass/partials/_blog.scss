@@ -77,4 +77,9 @@
   display: flex;
   border: 1px solid #ffffff;
   background: #0284d0;
+  transition-property: filter;
+  transition-duration: 500ms;
+  &:hover {
+    filter: opacity(70%);
+  }
 }
